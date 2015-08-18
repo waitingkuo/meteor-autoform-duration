@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'oaf:autoform-duration',
+  name: 'waitingkuo:autoform-duration',
   summary: 'Custom duration input type for AutoForm',
   version: '0.1.1',
-  git: 'https://github.com/oafmedium/meteor-autoform-duration.git'
+  git: 'https://github.com/waitingkuo/meteor-autoform-duration.git'
 });
 
 Package.onUse(function(api) {
@@ -11,7 +11,7 @@ Package.onUse(function(api) {
     'coffeescript',
     'templating',
     'blaze',
-    'aldeed:autoform@4.2.1',
+    'aldeed:autoform@5.0.0',
   ], ['client']);
   api.addFiles([
     'oaf:autoform-customnumber.html',
