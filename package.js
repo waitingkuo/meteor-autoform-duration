@@ -24,6 +24,6 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('tinytest');
   api.use('coffeescript', ['client', 'server']);
-  api.use('oaf:autoform-duration');
+  api.use('waitingkuo:autoform-duration');
   api.addFiles('oaf:autoform-duration-tests.coffee');
 });
